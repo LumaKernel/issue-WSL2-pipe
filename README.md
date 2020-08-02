@@ -64,7 +64,7 @@ C:\Users\luma>wsl -l -v
 ## Problem
 
 The piping is broken if checking EOF in program.
-Windows executable program will wait user input.
+Windows executable program will stop working without exiting.
 
 ```bash
 $ ./a.exe < sample.txt  # works well with file input
