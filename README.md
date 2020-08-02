@@ -124,3 +124,7 @@ $ echo -en "a\x0d\x0ab\x0d\x0a\x0d\x0a" | ./a.exe
 0a     |.|
 ^C$
 ```
+
+# Links
+
+Filed this to https://github.com/microsoft/WSL/issues/5699 .
